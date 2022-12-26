@@ -4,8 +4,6 @@ from math import log2
 import numpy as np
 from scipy.special import expit
 
-
-
 class Neural_net:
   def __init__(self,num_layer,list_nodes_per_layer):
     self.num_layer = num_layer
